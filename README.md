@@ -1,7 +1,9 @@
 # crearCarpetasDesdeExcel
 Utilizando los macros creamos un script para crear carpetas en base a los datos de una columna
 
-Sub CrearCarpetasDesdeColumna()
+
+    
+    Sub CrearCarpetasDesdeColumna()
     Dim Rng As Range
     Dim Cel As Range
     Dim CarpetaBase As String
@@ -32,4 +34,4 @@ Sub CrearCarpetasDesdeColumna()
     Next Cel
     
     On Error GoTo 0 ' Restablece el manejo de errores
-End Sub
+    End Sub
